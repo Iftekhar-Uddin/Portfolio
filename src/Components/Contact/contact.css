@@ -1,0 +1,193 @@
+.contact{
+    color: white;
+    width: 100vw;
+    max-width: 1440px;
+    min-height: 750px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.contacttop{
+    margin-top: 150px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactImg{
+    width: 400px;
+    height: 320px;
+}
+
+
+
+.contactcenter{
+    width: 100vw;
+}
+
+.contactcenter>h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    color:tomato;
+    font-size: 35px;
+    text-decoration-line: underline;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+input{
+    padding: 0px 3px;
+    height: 35px;
+    font-size: 15px;
+    width: 300px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea{
+    padding: 0px 3px;
+    font-size: 15px;
+    height: 140px;
+    width: 300px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.contactbutton{
+    padding: 7px 20px;
+    margin: 5px 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.contactbottom{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.iconforfooter{
+    display: flex;
+    gap: 25px;
+    color:gray;
+}
+
+.ptext{
+    margin: 5px 0px;
+    color:gray;
+}
+
+@media screen and (max-width: 600px){
+    .contact{
+        color: white;
+        width: 100vw;
+        min-height: 600px;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    
+    .contacttop{
+        margin-top: 40px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contactImg{
+        width: 300px;
+        height: 250px;
+    }
+    
+    
+    
+    .contactcenter{
+        width: 100vw;
+    }
+    
+    .contactcenter>h1{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 15px;
+        color:tomato;
+        font-size: 30px;
+        text-decoration-line: underline;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    input{
+        padding: 0px 3px;
+        height: 30px;
+        font-size: 15px;
+        width: 250px;
+        background-color: aliceblue;
+        border: none;
+        border-radius: 3px;
+    }
+    
+    textarea{
+        padding: 0px 3px;
+        font-size: 15px;
+        height: 110px;
+        width: 250px;
+        background-color: aliceblue;
+        border: none;
+        border-radius: 3px;
+    }
+    
+    .contactbutton{
+        padding: 4px 13px;
+        margin: 3px 10px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 2px;
+        color: white;
+        border: 1px solid rgb(255, 255, 255);
+        cursor: pointer;
+    }
+    
+    .contactbottom{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+    .iconforfooter{
+        display: flex;
+        gap: 10px;
+        color:gray;
+    }
+    
+    .ptext{
+        margin: 3px 0px;
+        color:gray;
+        font-size: 14px;
+    }
+}
