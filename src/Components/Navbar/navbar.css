@@ -1,0 +1,95 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 7rem;
+    width: 100vw;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1rem 1.2rem;
+
+}
+
+.MenuItem{
+    margin: 2rem;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.MenuItem:hover{
+    color:rgb(255, 174, 0);
+    padding-bottom: 0.4rem;
+    border-bottom: 3px solid rgb(255, 174, 0);
+}
+
+.desktopMenuButton{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 12px;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+
+.active{
+    color: rgb(255, 174, 0);
+}
+
+
+@media screen and (max-width: 600px){
+    .navbar{
+
+        justify-content:space-between;
+        top: 0;
+        z-index: 2;
+        height: 5rem;
+        max-width: auto;
+        margin: 0 auto;
+        padding: 0px 5px;
+    
+    }
+
+    .h11{
+        font-size: 17px;
+    }
+
+    .center{
+        width: 350px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .MenuItem{
+        margin: 0rem;
+        font-size: 18px;
+
+    }
+
+    .MenuItem:hover{
+        padding-bottom: 0.1rem;
+        border-bottom: 2px solid rgb(255, 174, 0);
+    }
+    
+    .desktopMenuButton{
+        border: 1px solid rgb(0, 0, 0);
+        padding: 4px 15px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px;
+     
+    }
+}

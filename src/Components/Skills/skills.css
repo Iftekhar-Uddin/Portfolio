@@ -1,0 +1,140 @@
+#skills{
+    color: white;
+    overflow: hidden;
+    width: 100vw;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.skillTitle{
+    color: tomato;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.skillDesc{
+    font-weight: 300;
+    font-size: 22px;
+    width: 860px;
+    /* max-width: 850px; */
+    margin-bottom: 35px;
+    /* color:rgb(221, 219, 219); */
+    text-align: left;
+}
+
+.skillsBars{
+    width: 100vw;
+    max-width: 70%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skillbar{
+    display: flex;
+    /* gap: 10px; */
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: rgb(50,50,50);
+}
+
+.skillImg{
+    width: 280px;
+    height: 130px;
+    min-width: 100px;
+    border-radius: 20px;
+}
+
+.skillbarText{
+    margin-top: 30px;
+    padding-left: 40px;
+    color: rgb(255, 160, 16);
+}
+
+.skillbarText>h2{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.skillbarText>p{
+    font-size: 17px;
+    margin-top: 8px;
+    color: rgb(185, 185, 185);
+}
+
+@media screen and (max-width: 600px){
+    #skills{
+        margin: 0px auto;
+    }
+    
+    .skillTitle{
+        font-size: 26px;
+        font-weight: 400;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .skillDesc{
+        font-weight: 300;
+        font-size: 17px;
+        max-width: 340px;
+        margin-bottom: 0px;
+        height: 140px;
+        text-align:justify;
+    }
+    
+    .skillsBars{
+        margin: 20px 0px;
+        width: 100vw;
+        max-width: 100%;
+        height: auto;
+        padding: 0px 15px;
+        gap: 0px;
+    }
+    
+    .skillbar{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        border-radius: 5px;
+        background-color: rgb(50,50,50);
+    }
+    
+    .skillImg{
+        width: 220px;
+        height: 100px;
+        min-width: 100px;
+        border-radius: 10px;
+    }
+    
+    .skillbarText{
+        margin-top: 5px;
+        padding-left: 0px;
+        color: rgb(255, 160, 16);
+    }
+    
+    .skillbarText>h2{
+        font-size: 23px;
+        margin-bottom: 0px;
+    }
+    
+    .skillbarText>p{
+        font-size: 16px;
+        margin-top: 5px;
+        color: rgb(185, 185, 185);
+    }
+}
