@@ -2,15 +2,16 @@
     background-color: black;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top: 0;
     z-index: 2;
-    height: 7rem;
+    height: 5rem;
     width: 100vw;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 1rem 1.2rem;
+    padding: 0px;
+    /* padding: 1rem 1.2rem; */
 
 }
 
@@ -51,43 +52,43 @@
 @media screen and (max-width: 600px){
     .navbar{
 
-        justify-content:space-between;
+        justify-content:space-around;
         top: 0;
         z-index: 2;
-        height: 5rem;
+        height: 2.2rem;
         max-width: auto;
         margin: 0 auto;
-        padding: 0px 5px;
+        /* padding: 0px 5px; */
     
     }
 
     .h11{
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .center{
-        width: 350px;
+        width: 150px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .MenuItem{
         margin: 0rem;
-        font-size: 18px;
+        font-size: 15px;
 
     }
 
     .MenuItem:hover{
         padding-bottom: 0.1rem;
-        border-bottom: 2px solid rgb(255, 174, 0);
+        border-bottom: 1px solid rgb(255, 174, 0);
     }
     
     .desktopMenuButton{
         border: 1px solid rgb(0, 0, 0);
-        padding: 4px 15px;
+        padding: 3px 6px;
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
-        font-size: 13px;
+        font-size: 11px;
         font-weight: 500;
         border-radius: 5px;
      

@@ -66,9 +66,9 @@
 
 @media screen and (max-width: 600px){
     #intro{
-        height: calc(100vh - 5rem);
+        height: 100vh;
         display: flex;
-        height: 700px;
+        height: 630px;
         flex-direction:column-reverse;
         margin: 0 auto;
     }
@@ -77,12 +77,12 @@
     
     .introImg{
         position: absolute;
-        top: 2rem;
-        right: 3rem;
+        top: 1rem;
+        right: 2.5rem;
         z-index: -1;
         object-fit: cover;
-        height: 365px;
-        width: 320px;
+        height: 300px;
+        width: 260px;
         border-radius: 50%;
         border: 2px solid rgb(255, 160, 16);
         background: rgb(255, 255, 255);
@@ -100,19 +100,19 @@
     }
     
     .hello{
-        font-size: 1.65rem;
+        font-size: 1.4rem;
     }
 
     .introText{
-        font-size: 32px;
+        font-size: 28px;
     }
     .introName{
         color: rgb(255, 174, 0);
-        font-size: 32px;
+        font-size: 28px;
     }
     
     .runtext{
-        font-size: 27px;
+        font-size: 25px;
     }
     
     .break{
@@ -128,10 +128,10 @@
     }
     
     .introbtn{
-        padding: 4px 8px;
+        padding: 2px 5px;
         margin: 20px 0;
         border: 1px solid rgb(255, 174, 0);
         border-radius: 10px;
-        gap: 5px;
+        gap: 3px;
     }
 }

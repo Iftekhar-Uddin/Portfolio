@@ -83,21 +83,21 @@
     .project{
         width: 100vw;
         min-height: 100vh;
-        /* max-width: 800px; */
+        max-width: auto;
         text-align: center;
         margin: 10px auto;
         overflow: hidden;
     }
     
     .title{
-        margin-top: 20px;
+        margin-top: 10px;
         color:tomato;
-        font-size: 22px;
-        padding-top: 30px;
+        font-size: 18px;
+        padding-top: 20px;
     }
     
     .projects{
-        margin-top: 5px;
+        margin-top: 0px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;

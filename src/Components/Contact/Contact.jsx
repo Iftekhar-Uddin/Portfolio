@@ -43,7 +43,7 @@ const Contact = () => {
         <input type='text' placeholder='Email' name='email_id'/>
         <textarea placeholder='Message' name='message'></textarea>
         <button type="submit" className='contactbutton'>Send</button>
-        {message && <span style={{color:"green"}}>Thanks for your Message :)</span>}
+        {message && <span style={{color:"green"}}>Thanks for your Message</span>}
         </form>
       </div>
 
