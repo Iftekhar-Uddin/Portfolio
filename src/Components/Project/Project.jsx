@@ -95,7 +95,7 @@ const Project = () => {
             </div>
             <div className='probuttom'>
                 <button className='buttonsare' onClick={()=> handleAdminPanelGit("https://github.com/Iftekhar-Uddin/Quiz-Application.git")}>Github Link</button>
-                <button className='buttonsare' onClick={()=> handleAdminPanelSite("https://quiz-application-5c0r.onrender.com")}>Live Site</button>
+                <button className='buttonsare' onClick={()=> handleAdminPanelSite("https://quiz-application-4c0r.onrender.com")}>Live Site</button>
             </div>
         </div>
       </div>
