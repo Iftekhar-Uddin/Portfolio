@@ -103,7 +103,7 @@ const Project = () => {
             <img className='proImg' src={countryapp} alt=''/>
             <div className='proText'>
                 <h2>Country App</h2>
-                <p>Technologies: JavaScript, React.js, css and others</p>
+                <p>Technologies: JavaScript, React.js and others</p>
             </div>
             <div className='probuttom'>
                 <button className='buttonsare' onClick={()=> handleAdminPanelGit("https://github.com/Iftekhar-Uddin/Country-Application.git")}>Github Link</button>

@@ -14,9 +14,9 @@ const Skills = () => {
         <div className='skillbar'>
           <img className='skillImg' src='https://www.beyondmart.com/blog/wp-content/uploads/2020/05/web-design-rajkot.png' alt=''/>
           <div className='skillbarText'>
-            <h2>Website Design</h2>
-            <p>User convenient responsive web designing experience with, JavaScript, React.js, HTML, CSS, SASS,
-              Material UI, Node js, GraphQL, MySql, etc.
+            <h2>Front-end Developer</h2>
+            <p>User convenient responsive and modern web designing experience with, JavaScript, HTML, CSS, React.js, Tailwind-Css, jQuery, SASS,
+              Material UI, etc.
             </p>
           </div>
         </div>
@@ -25,8 +25,8 @@ const Skills = () => {
           <img className='skillImg' src='https://www.codingdojo.com/blog/wp-content/uploads/Top-Programming-Languages-of-2023.jpg.webp' alt=''/>
           <div className='skillbarText'>
             <h2>Programming</h2>
-            <p>Problem solving skill at JavaScript. Maintain time management and professional with REST_API, MongoDB, Git, etc. Also know programming
-             language C, C++, javaScript, etc. 
+            <p>Practice javascript problem solving with data structure and algorithm. Maintain time and professional with REST_API, MongoDB, Git, jest, etc. Also know programming
+             language C and aslo familiar with GraphQl. 
             </p>
           </div>
         </div>
@@ -35,8 +35,7 @@ const Skills = () => {
           <img className='skillImg' src='https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_pc.jpg' alt=''/>
           <div className='skillbarText'>
             <h2>Miscellaneous</h2>
-            <p>Working experience with Microsoft office word, excel, photoshop, google sheets, docs, etc. Also learning and 
-              practising php & python.
+            <p>Learning and practising php, python, Next.js, etc. Working experience with Microsoft office word, excel, google sheets, docs, photoshop, etc.
             </p>
           </div>
         </div>
