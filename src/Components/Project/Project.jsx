@@ -5,6 +5,7 @@ import admin from '../../assets/admin.jpg'
 import socialmedia from "../../assets/fbmedia.png"
 import htlbook from '../../assets/hotel-booking.png'
 import quizapp from '../../assets/quizapp.png'
+import countryapp from '../../assets/countryapp.png'
 
 const Project = () => {
 
@@ -91,11 +92,22 @@ const Project = () => {
             <img className='proImg' src={quizapp} alt=''/>
             <div className='proText'>
                 <h2>Quiz application</h2>
-                <p>Technologies: JavaScript, React.js, css and others</p>
+                <p>Technologies: JavaScript, Html, css and others</p>
             </div>
             <div className='probuttom'>
                 <button className='buttonsare' onClick={()=> handleAdminPanelGit("https://github.com/Iftekhar-Uddin/Quiz-Application.git")}>Github Link</button>
                 <button className='buttonsare' onClick={()=> handleAdminPanelSite("https://quiz-application-4c0r.onrender.com")}>Live Site</button>
+            </div>
+        </div>
+        <div className='projectsBar'>
+            <img className='proImg' src={countryapp} alt=''/>
+            <div className='proText'>
+                <h2>Country App</h2>
+                <p>Technologies: JavaScript, React.js, css and others</p>
+            </div>
+            <div className='probuttom'>
+                <button className='buttonsare' onClick={()=> handleAdminPanelGit("https://github.com/Iftekhar-Uddin/Country-Application.git")}>Github Link</button>
+                <button className='buttonsare' onClick={()=> handleAdminPanelSite("https://country-application.onrender.com")}>Live Site</button>
             </div>
         </div>
       </div>
